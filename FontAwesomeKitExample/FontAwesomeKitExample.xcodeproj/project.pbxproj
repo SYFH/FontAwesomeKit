@@ -598,7 +598,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeKitExample/FontAwesomeKitExample-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FontAwesomeKitExample/FontAwesomeKitExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = FontAwesomeKitExample;
 				WRAPPER_EXTENSION = app;
 			};
@@ -610,7 +610,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeKitExample/FontAwesomeKitExample-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FontAwesomeKitExample/FontAwesomeKitExample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = FontAwesomeKitExample;
 				WRAPPER_EXTENSION = app;
 			};
@@ -626,6 +626,7 @@
 				63C94B411BD6DDB400C5EFE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC44A85016CD9B3F0039E101 /* Build configuration list for PBXProject "FontAwesomeKitExample" */ = {
 			isa = XCConfigurationList;

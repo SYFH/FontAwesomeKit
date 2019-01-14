@@ -19,16 +19,16 @@
 - (NSArray *)appIcons
 {
     if (!_appIcons) {
-        FAKIonIcons *mailIcon = [FAKIonIcons iosEmailIconWithSize:48];
+        FAKIonIcons *mailIcon = [FAKIonIcons iosMailIconWithSize:48];
         mailIcon.drawingBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"mail-gradient"]];
         [mailIcon addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor]];
         
-        FAKIonIcons *musicIcon = [FAKIonIcons musicNoteIconWithSize:40];
+        FAKIonIcons *musicIcon = [FAKIonIcons iosMusicalNoteIconWithSize:40];
         musicIcon.drawingPositionAdjustment = UIOffsetMake(-3, 0);
         musicIcon.drawingBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"music-gradient"]];
         [musicIcon addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor]];
         
-        FAKIonIcons *phoneIcon = [FAKIonIcons iosTelephoneIconWithSize:40];
+        FAKIonIcons *phoneIcon = [FAKIonIcons iosCallIconWithSize:40];
         phoneIcon.drawingBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"phone-gradient"]];
         [phoneIcon addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor]];
         
@@ -41,7 +41,7 @@
         messageIcon.drawingBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"phone-gradient"]];
         [messageIcon addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor]];
         
-        FAKIonIcons *cameraIcon = [FAKIonIcons cameraIconWithSize:48];
+        FAKIonIcons *cameraIcon = [FAKIonIcons iosCameraIconWithSize:48];
         cameraIcon.drawingBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"camera-gradient"]];
         [cameraIcon addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithWhite:0.1 alpha:1.0]];
         
